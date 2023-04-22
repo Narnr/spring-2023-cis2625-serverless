@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--HEAD-->
+<head>
+
+<!--Defines character set used-->
+<meta charset="UTF-8">
+
+<!--Sets viewport to make content look good on all devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Bootsrap link which is needed to make the webpage responsive-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--words that will show on the tab-->
+<title>WEBPAGE</title>
+
+<!--icon that shows up on the page tab-->
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+<!--code to link your CSS file to your html file-->
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<!--HEAD-->
+
+<!--BODY-->
+<body>
+<div class="container-fluid">
+<h1 class="header">Random Webpage</h1>
+
+
+<div class="header">
+  <p>This is a paragraph.</p>
+</div>
+
+<div class="container">
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <h2>Add New Property</h2>
+
+          <form id="create-property-form">
+            <div class="form-group">
+              <label for="str_address">Street Address: </label>
+              <input type="text" name="str_address" id="str_address" /><br />
+            </div>
+            <div class="form-group">
+              <label for="city">City: </label>
+              <input type="text" name="city" id="city" /><br />
+            </div>
+            <div class="form-group">
+              <label for="state">State: </label>
+              <input type="text" name="state" id="state" /><br />
+            </div>
+            <div class="form-group">
+              <label for="zip">Zip: </label>
+              <input type="text" name="zip" id="zip" /><br />
+            </div>
+            <div class="form-group">
+              <label for="year">Year Built: </label>
+              <input type="text" id="year" name="year" /><br />
+            </div>
+            <div class="form-group">
+              <label for="type">Type: </label>
+              <input type="text" id="type" name="type" /><br />
+            </div>
+            <div class="form-group">
+              <label for="sqft">Size: </label>
+              <input type="text" id="sqft" name="sqft" /><br />
+            </div>
+            <div class="form-group">
+              <label for="beds">Number of Bedrooms: </label>
+              <input type="text" id="beds" name="beds" /><br />
+            </div>
+            <div class="form-group">
+              <label for="baths">Number of Bathrooms: </label>
+              <input type="text" id="baths" name="baths" /><br />
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit">
+              Add Property
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+<!--using links and target, target defines if it opens in a new tab or not-->
+<!--the code from here on is mostly just code i was getting a little practice with-->
+<div class="center">
+  <a href="https://www.youtube.com/watch?v=YXnTm1sUseU&t=523s" target="_blank">SPOONKID the origin of monkey</a>
+</div>
+
+<br>
+<!--using an image as a link-->
+<!--using max-width 100% makes the pic scale down if needed but never scale up-->
+<div class="center">
+  <a href="https://www.monke.clothing/latest" target="_blank">
+  <img src="img/monke.jpg" style="max-width:100%; height:auto;" title="this is spoonkid">
+  </a>
+</div>
+
+<br>
+
+
+<div class="center">
+  <p class="border1">These words are inside a box because why not</p>
+</div>
+<br>
+
+</div>
+<script src="./js/addProperty.js"></script>
+</body>
+<!--BODY-->
+
+<!--Footer-->
+<footer>
+  <div class="center">
+    hi
+  </div>
+  <br>
+</footer>
+<!--Footer-->
+</html>
